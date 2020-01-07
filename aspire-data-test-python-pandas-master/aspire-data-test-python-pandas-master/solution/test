@@ -1,0 +1,13 @@
+import pandas as pd
+l1 = [{"customer_id": "C1", "product_id": "P01"},
+      {"customer_id": "C1", "product_id": "P01"},
+      {"customer_id": "C1", "product_id": "P02"},
+      {"customer_id": "C2", "product_id": "P01"}]
+
+df = pd.DataFrame(l1)
+#df['purchase_count'] = 0
+#df['purchase_count'] = df[['customer_id', 'product_id']].groupby(['customer_id', 'product_id']).transform('count')
+#com_df3['purchase_count'] = com_df3[['customer_id', 'loyalty_score', 'product_id', 'product_category']].groupby(['customer_id', 'product_id']).transform('count')
+#df1 = df['customer_id', 'customer_id']
+#print(df)
+print(l1)
